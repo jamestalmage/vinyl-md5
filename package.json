@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "My perfect gulp plugin",
   "license": "MIT",
-  "repository": "jamestalmage/gulp-vinyl-md5",
+  "repository": "jamestalmage/vinyl-md5",
   "author": {
     "name": "James Talmage",
     "email": "james@talmage.io",
