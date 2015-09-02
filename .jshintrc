@@ -9,5 +9,6 @@
 	"undef": true,
 	"unused": "vars",
 	"strict": true,
-	"mocha": true
+	"mocha": true,
+	"predef": [ "-Promise" ]
 }
