@@ -1,0 +1,32 @@
+{
+  "name": "gulp-vinyl-md5",
+  "version": "0.0.0",
+  "description": "My perfect gulp plugin",
+  "license": "MIT",
+  "repository": "jamestalmage/gulp-vinyl-md5",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha && ./node_modules/.bin/jshint test.js index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "*"
+  }
+}
