@@ -24,7 +24,7 @@
   "dependencies": {
     "gulp-util": "^3.0.4",
     "native-or-bluebird": "^1.2.0",
-    "through2": "^0.6.5"
+    "through2": "^2.0.0"
   },
   "devDependencies": {
     "bluebird": "^2.9.34",
