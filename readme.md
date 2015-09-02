@@ -23,6 +23,8 @@ gulp.task('with-buffers', function () {
 		.pipe(through.obj(function(file, enc, next) {
 			// md5 hash is on the file object.
 			console.log(file.md5);
+			this.push(file);
+			next();
 		}))
 		.pipe(gulp.dest('dist'));
 });
@@ -35,6 +37,8 @@ gulp.task('with-streams', function () {
 			file.md5Promise.then(function(md5) {
 			  console.log(md5);
 			});
+			this.push(file);
+			next();
 		}))
 		.pipe(gulp.dest('dist'));
 });
